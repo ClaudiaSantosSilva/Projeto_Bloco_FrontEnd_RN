@@ -1,7 +1,5 @@
 import { NavigationContainer } from "@react-navigation/native";
-import { StackScreen } from "react-native-screens";
 import StackNavigator from "./routes/StackNavigator";
-
 
 export default function App() {
   
