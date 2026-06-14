@@ -80,11 +80,11 @@ export default function CardPassagem({ dados }) {
         <View style={styles.divDetalhes}>
           <View style={styles.divBagagens}>
             <Image
-              source={require("../src/assets/malas.png")}
+              source={require("../assets/malas.png")}
               style={styles.iconBagagem}
             />
             <Image
-              source={require("../src/assets/malas_mao.png")}
+              source={require("../assets/malas_mao.png")}
               style={styles.iconBagagem}
             />
           </View>
@@ -95,3 +95,4 @@ export default function CardPassagem({ dados }) {
     </View>
   );
 }
+
