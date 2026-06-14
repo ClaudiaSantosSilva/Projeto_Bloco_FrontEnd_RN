@@ -1,4 +1,5 @@
 import { View, Text, Image, StyleSheet } from "react-native";
+import { FontAwesome } from "@expo/vector-icons";
 
 export default function CardPassagem({dados}){
 
@@ -21,8 +22,15 @@ export default function CardPassagem({dados}){
   } = dados;
 
     return(
-        <View>
-            
+        <View style={styles.container}>
+            <View style={styles.cardLateral}>
+                <FontAwesome name="plane" size={20} color="white" style={{ transform: [{ rotate: "-270deg" }] }} />
+                <Text style={styles.titulo}>{ciaAerea}</Text>
+            </View>
+             <View style={styles.divInfo}>
+
+             </View>
+
 
         </View>
     );
