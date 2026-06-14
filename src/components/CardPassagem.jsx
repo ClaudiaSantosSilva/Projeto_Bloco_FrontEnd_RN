@@ -31,12 +31,12 @@ export default function CardPassagem({dados}){
 
                 {/* Ida */}
                 <View style={styles.infoIda}>
-                    <View style={styles.partida}>
+                    <View style={styles.partidaIda}>
                         <Text style={styles.horario}>{horaPartidaIda}</Text>
                         <Text style={styles.data}>{aeroPartidaIda} · {dataPartidaIda}</Text>
                     </View>
                     <FontAwesome name="plane" size={16} color="black" style={{ transform: [{ rotate: "-270deg" }] }} />
-                    <View style={styles.chegada}>
+                    <View style={styles.chegadaIda}>
                         <Text style={styles.horario}>{horaChegadaIda}</Text>
                         <Text style={styles.data}>{aeroChegadaIda} · {dataChegadaIda}</Text>
                     </View>
@@ -44,9 +44,17 @@ export default function CardPassagem({dados}){
 
                 {/* Volta */}
                 <View style={styles.infoVolta}>
-                    
-
+                    <View style={styles.partidaVolta}>
+                        <Text style={styles.horario}>{horaPartidaVolta}</Text>
+                        <Text style={styles.data}>{aeroPartidaVolta} · {dataPartidaVolta}</Text>
+                    </View>
+                    <FontAwesome name="plane" size={16} color="black" style={{ transform: [{ rotate: "270deg" }] }} />
+                    <View style={styles.chegadaVolta}>
+                        <Text style={styles.horario}>{horaChegadaVolta}</Text>
+                        <Text style={styles.data}>{aeroChegadaVolta} · {dataChegadaVolta}</Text>
+                    </View>
                 </View>
+                
                 {/* Detalhes */}
                 <View style={styles.divDetalhes}>
 
