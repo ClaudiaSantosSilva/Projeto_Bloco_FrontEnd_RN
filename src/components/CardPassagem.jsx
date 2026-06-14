@@ -28,6 +28,18 @@ export default function CardPassagem({dados}){
                 <Text style={styles.titulo}>{ciaAerea}</Text>
             </View>
              <View style={styles.divInfo}>
+                {/* Ida */}
+                <View style={styles.infoIda}>
+
+                </View>
+                {/* Volta */}
+                <View style={styles.infoVolta}>
+
+                </View>
+                {/* Detalhes */}
+                <View style={styles.divDetalhes}>
+
+                </View>
 
              </View>
 
