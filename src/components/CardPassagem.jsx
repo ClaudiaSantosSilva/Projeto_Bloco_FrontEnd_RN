@@ -96,3 +96,83 @@ export default function CardPassagem({ dados }) {
   );
 }
 
+const styles = StyleSheet.create({
+  container: {
+    borderWidth: 1,
+    // borderColor: "#ccc",
+    borderColor: "rgb(204 204 204)",
+    borderRadius: 8,
+    marginBottom: 16,
+    backgroundColor: "white",
+  },
+  cardLateral: {
+    flexDirection: "column-reverse",
+    alignItems: "center",
+    backgroundColor: "rgba(173, 255, 47, 0.9)",
+    padding: 8,
+  },
+  titulo: {
+    //color: "#667312",
+    fontWeight: "bold",
+    marginLeft: 8,
+    textTransform:"uppercase",
+  },
+  divInfo: {
+    padding: 12,
+  },
+  infoIda: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginBottom: 8,
+    alignItems: "center",
+  },
+  partidaIda: {
+    flex: 1,
+  },
+  horario: {
+    fontSize: 16,
+    fontWeight: "bold",
+  },
+  data: {
+    fontSize: 14,
+    // color: "#555",
+  },
+  chegadaIda: {
+    flex: 1,
+    alignItems: "flex-end",
+  },
+  infoVolta: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginBottom: 8,
+    alignItems: "center",
+  },
+  partidaVolta: {
+    flex: 1,
+  },
+  chegadaVolta: {
+    flex: 1,
+    alignItems: "flex-end",
+  },
+  divDetalhes: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginTop: 8,
+    backgroundColor: "rgb(255,255,0)",
+  },
+  divBagagens: {
+    flexDirection: "row",
+  },
+  iconBagagem: {
+    width: 24,
+    height: 24,
+    marginRight: 8,
+    resizeMode: "contain",
+  },
+  valor: {
+    fontSize: 16,
+    fontWeight: "bold",
+    // color: "#007AFF",
+  },
+});
