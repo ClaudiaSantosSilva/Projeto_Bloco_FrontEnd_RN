@@ -8,7 +8,7 @@ export default function Button({ accessibilityLabel, onPress, children, style })
       onPress={onPress}
       style={style} 
     >
-      <Text>{children}</Text>
+      {typeof children === "string" ? <Text>{children}</Text> : children}
     </Pressable>
   );
 }
